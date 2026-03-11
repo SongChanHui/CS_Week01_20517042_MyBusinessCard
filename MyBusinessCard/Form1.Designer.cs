@@ -51,7 +51,6 @@
             pictureBox1.Click += pictureBox1_Click;
             pictureBox1.MouseEnter += pictureBox1_MouseEnter;
             pictureBox1.MouseLeave += pictureBox1_MouseLeave;
-           
             // 
             // label1
             // 
@@ -132,7 +131,7 @@
             Controls.Add(label1);
             Controls.Add(pictureBox1);
             Name = "Form1";
-            Text = "Form1";
+            Text = "나의 첫 GUI 프로그램";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
